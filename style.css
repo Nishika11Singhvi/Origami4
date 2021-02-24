@@ -1,0 +1,135 @@
+.menu
+{
+    display : flex;
+    justify-content : space-between;
+    background-color : rgb(247, 191, 170);
+    font-size : 16px;
+    padding : 3px;
+    border : 1px solid rgb(58, 57, 57);
+    font-weight : 400;
+    height : 20px;
+}
+
+body
+{
+    font:  normal 16px/1.4 Georgia;
+    background-color : rgb(244, 244, 244);
+    text-decoration : none;
+    border : 1px solid black;
+    margin : -1px;
+}
+
+.linkheading
+{
+    letter-spacing: 5px;
+}
+
+.para
+{
+    display : flex;
+    background-color :rgb(244, 244, 244);
+    width : 730px;
+    font-family : 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1
+{
+    background-color:rgb(253, 186, 161);
+    color: rgb(51, 51, 51);
+    letter-spacing: 7px;
+}
+
+.picture
+{
+    box-shadow: 10px 15px 15px 0px #bebebe;
+}
+
+.grid1
+{
+    display : flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    border-radius : 50px;
+}
+
+.grid2
+{
+    display : flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    border-radius : 50px;
+}
+
+.origami
+{
+    border-radius : 20px;
+    background-color : white;
+    margin : 2px;
+    padding : 3px;
+    width : 270px;
+    font-family : 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.names
+{
+    font-family : 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 3px;
+}
+
+.links
+{
+    display : flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin-top : 50px;
+    margin-bottom : 10px;
+}
+
+.links2
+{
+    display : flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+a:link
+{
+    color : rgb(117, 59, 68);
+}
+
+a:visited
+{
+    color : rgb(70, 63, 63);
+}
+
+.menu a
+{
+    margin-right : 10px;
+}
+
+.menu a
+{
+    margin-left : 10px;
+}
+
+.origami:hover
+{
+    transform : scale(1.085);
+    box-shadow: 10px 10px 15px 5px #bebebe;
+}
+
+.link1:hover img
+{
+    transform : scale(1.2);
+}
+
+.link2:hover img
+{
+    transform : scale(1.2);
+}
+
+.link3:hover img
+{
+    transform : scale(1.2);
+}
+
